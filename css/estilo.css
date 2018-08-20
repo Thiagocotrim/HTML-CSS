@@ -1,0 +1,205 @@
+
+main h1{
+	font-size: 60px;
+	background-color: #851944;
+	color: #F2FFFC ;
+	text-align: center;
+	padding: 25px;
+	margin: 0;
+	border-bottom: 10px solid black;
+	text-transform: uppercase;
+	text-shadow: 5px 5px #000;
+}
+
+h2{
+	font-size: 30px;
+	clear: both;
+}
+
+p{
+	text-align: justify;
+	font-family: "Crimson Text" sans-serif;
+	margin: 20px 0;
+}
+
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+blockquote{
+	background-color: #D9E5E3;
+	padding: 16px;
+	border: 8px solid #C2CCCA;
+	width: 250px;
+	margin: 25px;
+	box-sizing: border-box;
+}
+
+nav a {
+    color: #F2FFFC;
+    text-transform: lowercase;
+}
+
+nav{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    width: calc(0.9 * 300px);
+}
+
+ul {
+    color: pink;
+}
+
+ul li a {
+    color: inherit;
+}
+
+blockquote footer aside{
+	margin: 20px 40px;
+}
+
+
+main div{
+	width: 720px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.icones-sociais li{
+	display: inline-block;
+}
+
+#rodape-pagina {
+	background-image: radial-gradient(ellipse at left bottom,
+    rgba(60, 29, 61, 0.8),
+    rgba(60, 29, 61, 0.8) 65%,
+    black 65%,
+    black 70%,
+    transparent 70%,
+    transparent);
+	width:100%;
+	background-size: 25% 100%;
+	background-repeat: no-repeat;
+    color: #000;
+    padding: 20px;
+    position: fixed;
+}
+
+article{
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.leia-mais{
+	padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}  
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}  
+
+.github{
+	background-image: url("github.png");
+}
+
+.twitter{
+	background-image: url("twitter.png");
+}
+
+.linkedin{
+	background-image: url("linkedin.png");
+}
+
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+aside{
+	clear: right;
+	
+}
+
+aside, img{
+	float: right;
+	border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+footer{
+	clear: both;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+main{
+	flex-grow: 1;
+	padding-bottom: 80px; 
+}
+
+img{
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+aside{
+	position: relative;
+	top: 300px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegacao-site{
+	padding-top: calc(300px + 1em);
+}
+
+.minha-foto,
+.navegacao-site {
+   
+}
+
